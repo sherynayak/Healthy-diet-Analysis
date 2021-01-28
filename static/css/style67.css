@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-size: auto;
+}
+
+header {
+    background-color: black;
+    height: 5em;
+}
+
+img {
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    float: left;
+    margin-left: 295px;
+    margin-top: 20px;
+}
+
+.head-tag {
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.head-tag a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover {
+    background-color: darkmagenta;
+    color: black;
+    transition: .5s ease-in-out;
+}
+
+.container {
+    height: 0%;
+    width: 1200px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#info {
+    border: 2px solid black;
+}
+
+.sidebar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 60px;
+    margin-left: 20px;
+}
+
+.sidebar li {
+    list-style: square;
+    margin-bottom: 10px;
+}
+
+
+/* Form */
+
+.login {
+    /* float: right; */
+    display: inline-block;
+    border: 2px solid #111111;
+    background-color: rgb(214, 214, 209);
+    height: 23em;
+    margin-top: -4%;
+    margin-left: 35%;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.login h2 {
+    text-align: center;
+}
+
+.login input {
+    width: 70%;
+    height: 1.5em;
+    text-align: center;
+}
+
+#submit-button {
+    width: 70%;
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+#hidden {
+    display: none;
+}
+
+.pbox {
+    border: 3px solid white;
+    width: 22%;
+    float: left;
+    margin-left: 10px;
+    height: 17em;
+    padding: 5px;
+    background-color: #cccccc;
+}
+
+.pbox a {
+    color: red;
+    text-decoration: none;
+}
+
+.pbox h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pbox p {
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+
+/* 
+footer {
+    background-color: black;
+    color: white;
+    height: 2em;
+    margin-top: 50%;
+}
+
+footer p {
+    text-align: center;
+} */
