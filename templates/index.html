@@ -1,0 +1,48 @@
+{%extends "layout.html"%} {%block content%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Healthy diet Analysis</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style67.css')}}">
+</head>
+
+<body background="{{url_for('static', filename = 'image/fresh1.jpeg')}}">
+    <!-- LoginForm -->
+    <form class="login" action="." method="POST">
+        <h2><u>Healthy diet Analysis</u></h2>
+        <div id="formGuid">
+            <div>As per USDA Center daily diet intake guideline: </div>
+            <div>30% grains, 40% vegetables,</div>
+            <div>10% fruits, and 20% protein</div>
+        </div>
+        <br>
+        <div class="login-contents">
+            <label><h4>Enter grains  Percentage</h4></label>
+            <input type="number" step="0.01" name="grains">
+            <br><br>
+            <label><h4>Enter vegetables Percentage</h4></label>
+            <input type="number" step="0.01" name="vegetables">
+            <br><br>
+            <label><h4>Enter fruits Percentage</h4></label>
+            <input type="number" step="0.01" name="fruits">
+            <br><br>
+            <label><h4>Enter protein Percentage</h4></label>
+            <input type="number" step="0.01" name="protein">
+        </div>
+        <br>
+        <div>
+            <button id="submit-button">Submit</button>
+        </div>
+        <br>
+    </form>
+    <!-- /Login Form -->
+
+    <!-- footer -->
+    <!-- <footer>
+        <p>Copyright@2019</p>
+    </footer> -->
+</body>
+
+</html>
+{%endblock%}
