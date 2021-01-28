@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Healthy diet Analysis</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style67.css')}}">
+</head>
+
+<body>
+    <header>
+        <!-- Header -->
+        <img src="{{url_for('static', filename = 'image/logo.jpg')}}" alt="logo" height="40" width="40">
+        <h1>HEALTHY DIET ANALYSIS</h1>
+        <div class="head-tag">
+            <a href="{{url_for('info')}}">Information</a>
+            <a href="{{url_for('index')}}">Prediction</a>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <div class="container">
+        {%block content%} {%endblock%}
+    </div>
+    <!-- footer -->
+    <!-- <footer>
+        <p>Copyright@2019</p>
+    </footer> -->
+</body>
+
+</html>

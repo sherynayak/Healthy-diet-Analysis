@@ -1,0 +1,40 @@
+{%extends "layout.html"%} {%block content%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style67.css')}}">
+</head>
+
+<body background="{{url_for('static', filename = 'image/fresh1.jpeg')}}">
+    <!-- LoginForm -->
+    <form class="login" action="." method="POST">
+        <h2>
+            <u>Result of Healthy diet Analysis</u>
+        </h2>
+        <br>
+        <br>
+        <div>
+            <!-- <label><h4>For {{totalExperience}} Years Experience</h4></label>
+            <br> -->
+            <label><h3>You are {{PredictedResult}} diet</h3></label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>
+                Click Predction to Predict with another choice
+            </label>
+        </div>
+        <br>
+    </form>
+    <!-- /Login Form -->
+
+    <!-- footer -->
+    <!-- <footer>
+        <p>Copyright@2019</p>
+    </footer> -->
+</body>
+
+</html>
+{%endblock%}
